@@ -15,4 +15,16 @@ public class HouseB {
     private Garden garden;
     private Garage garage;
 
+    public HouseB(Address address, HouseType houseType) {
+        this.address = address;
+        this.houseType = houseType;
+    }
+
+    @Override
+    public String toString() {
+        return "HouseB{" +
+                "address=" + address +
+                ", houseType=" + houseType +
+                '}';
+    }
 }
